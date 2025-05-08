@@ -27,10 +27,10 @@ function ProductList() {
     return(
         <div style={{ display: 'flex', alignItems: 'center', alignContent: 'center', flexDirection: 'column' }}>
         {products.map((product, index) => ( // Add index here
-                <div style={{ width: '100%' }}>
+                <div key={product.id} style={{ width: '100%' }}>
                 
                     <Product 
-                        key={product.id} // Add key here
+                      
                         {...product}
                         onToggle={ontoggle}
                     />

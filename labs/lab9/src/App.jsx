@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import ProductList from './ProductList.jsx'
+import ProductListWithReducer from './ProductListWithReducer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,7 +33,11 @@ function App() {
     <div>
       <h1>Product List</h1>
       <ProductList />
+      <h1>Product List with Reducer</h1>
+      <ProductListWithReducer />
     </div>
+
+   
     
   )
 }
