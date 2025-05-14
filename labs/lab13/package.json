@@ -1,0 +1,14 @@
+{
+  "name": "lab13",
+  "version": "1.0.0",
+  "main": "Question1.js",
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
